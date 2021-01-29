@@ -26,7 +26,7 @@ body {
 }
 .button {
 	padding: 10px 20px;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	background: #4592ff;
 	border-radius: 20px;
@@ -39,7 +39,6 @@ body {
 	cursor: pointer;
 	outline: none;
 	text-decoration: none;
-	display: inline-block;
 }
 .button-icon,
 .button-price {
