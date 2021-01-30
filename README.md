@@ -1,6 +1,4 @@
-# willberries
-# Учебный проект в Glo-Academy
-
+# WILLBERRIES: учебный проект в Glo-Academy
 ## В проекте использовались языки
 - HTML
 - CSS
