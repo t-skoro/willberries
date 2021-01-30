@@ -6,6 +6,11 @@ body {
 	margin: 0;
 	font-family: "Lato", sans-serif;
 }
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+}
 .header {
 	padding: 15px 0;
 }
