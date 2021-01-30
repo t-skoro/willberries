@@ -182,7 +182,7 @@ body {
 .goods-card {
 	position: relative;
 	text-align: center;
-	padding: 30px 36px 35px;
+	padding: 30px 25px 35px;
 	text-decoration: none;
 	display: block;
 }
@@ -200,8 +200,6 @@ body {
 	color: #262d33;
 }
 .goods-description {
-	margin: 30px;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 20px;
 	color: #4b5157;
@@ -254,7 +252,10 @@ body {
 }
 .payment-logo {
 	vertical-align: middle;
-	margin-right: 25px;
+}
+.footer-payment > * + * {
+	/* внутри у .footer-payment у каждого соседа слева отступ 25рх */
+	margin-left: 25px;
 }
 @media (max-width: 1200px) {
 	.slide-1,
