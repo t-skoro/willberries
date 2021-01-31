@@ -246,7 +246,7 @@ img {
 }
 .footer-line {
 	color: rgba(255, 255, 255, 0.5);
-	size: 1px;
+	resize: horizontal 1px;
 }
 .top-link {
 	text-decoration: none;
