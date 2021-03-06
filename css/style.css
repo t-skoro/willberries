@@ -62,15 +62,15 @@ img {
 	padding-bottom: 110px;
 }
 .slide-1 {
-	background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 15px;
+	/* background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 15px; */
+	background: #b4d1e0 url("../img/slide-image-1.png") no-repeat center center / cover;
 }
 .slide-2 {
-	background: #ff4f52 url("../img/card-image-4.png") no-repeat top right /
-		contain;
+	background: #b4d1e0 url("../img/slide-image-2.png") no-repeat top center / cover;
 }
 .slide-3 {
-	background: #ccd5e6 url("../img/card-image-3.png") no-repeat top right /
-		contain;
+	background: #ccd5e6 url("../img/slide-image-3.png") no-repeat top center /
+		cover;
 }
 .label {
 	display: inline-block;
@@ -85,16 +85,18 @@ img {
 	font-family: "Roboto Slab", serif;
 	font-size: 55px;
 	line-height: 70px;
-	color: #262d33;
 	margin-top: 20px;
 	margin-bottom: 15px;
+	/* color: #262d33; */
+	color: #fff;
 }
 .slide-description {
 	max-width: 335px;
 	margin-bottom: 40px;
 	font-size: 18px;
 	line-height: 30px;
-	color: #4b5157;
+	/* color: #4b5157; */
+	color: #fff;
 }
 .slider {
 	position: relative;
@@ -163,6 +165,9 @@ img {
 }
 .text-light {
 	color: #fff;
+}
+.text-dark {
+	color: #262d33;
 }
 .card-price {
 	color: #fff;
@@ -258,15 +263,9 @@ img {
 	vertical-align: middle;
 }
 .footer-payment > * + * {
-	/* внутри у .footer-payment у каждого соседа слева отступ 25рх */
 	margin-left: 25px;
 }
 @media (max-width: 1200px) {
-	.slide-1,
-	.slide-2,
-	.slide-3 {
-		background-size: cover;
-	}
 	.card-3 {
 		background-size: cover;
 	}
@@ -278,7 +277,7 @@ img {
 }
 @media (max-width: 576px) {
 	.slide-title {
-		font-size: 36px;
+		font-size: 26px;
 		line-height: 1.4;
 		margin-bottom: 0;
 	}
